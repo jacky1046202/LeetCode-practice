@@ -16,7 +16,7 @@ class Solution {
 
         for(int i = 1; i <= zero; i++){
             for(int j = 1; j <= one; j++){
-
+ 
                 // 最多連續放到limit個0 或i個(目前只有這麼多)
                 for(int k = 1; k <= Math.min(limit, i); k++){
                                                 // 少k個0 最後是一坨1的
